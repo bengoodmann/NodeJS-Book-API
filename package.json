@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-book-api",
+  "version": "1.0.0",
+  "description": "A book api built with NodeJS and SQLite db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7"
+  }
+}
