@@ -4,10 +4,8 @@ const path = require("path");
 const sequelize = new Sequelize({
   dialect: "sqlite",
   storage: path.join(__dirname, "book.sqlite"),
-//   logging: (...msg) => console.log(msg),
+  //   logging: (...msg) => console.log(msg),
 });
-
-
 
 (async () => {
   try {
